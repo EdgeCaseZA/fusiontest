@@ -36,5 +36,5 @@ const options = {
 const params = program.token ? { commitToken: program.token } : null;
 
 fusion.post('GetChanges', options, params, (chunk) => {
-  console.log(chunk);
+  process.stdout.write(chunk);
 });
