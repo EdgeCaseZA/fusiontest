@@ -1,14 +1,20 @@
 Fusion SyncStore Test CLI
 =========================
 
-Installation instructions
+### Dependencies
+
+- Node >=5.0.0
+
+### Installation instructions
 
     git clone https://github.com/EdgeCaseZA/fusiontest.git
     cd fusiontest
     npm install
     npm link
 
-Usage: `fusiontest [options]`
+#### Usage
+
+    fusiontest [options]
 
 Options:
 
